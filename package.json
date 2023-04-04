@@ -1,23 +1,31 @@
 {
   "name": "a01-awtack",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "My personal webserver",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "node server.js --port=5555"
-    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a01-awtack.git"
   },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
   "author": "awtack",
-  "license": "LGPL-3.0-or-later",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a01-awtack/issues"
   },
   "homepage": "https://github.com/comp426-2023-spring/a01-awtack#readme",
   "dependencies": {
-    "minimist": "^1.2.7"
+    "minimist": "^1.2.8"
   }
 }
